@@ -4,20 +4,20 @@
 target_url="https://103.41.169.201/"
 
 # Number of connections (-c : Jumlah koneksi yang dibuka)
-connections=5
+connections=2
 
 # Test type (-X untuk Slow Read, -T untuk Slow HTTP Post, -H untuk Slow Headers, dll.)
 test_type="-H"
 
 # Request rate (-r : Jumlah permintaan per detik)
-request_rate=5
+request_rate=2
 
 # Read/Write timeout (-w : Timeout baca, -y : Timeout tulis)
 read_timeout=10
 write_timeout=20
 
 # Number of requests (-n : Jumlah total permintaan yang dikirim)
-num_requests=5
+num_requests=2
 
 # Header size (-z : Ukuran header dalam byte)
 header_size=32
@@ -41,4 +41,4 @@ output_prefix="slowhttp"
 enable_graph="-g"
 
 # Duration of the attack in seconds (-l : Durasi serangan dalam detik)
-attack_duration=350
+attack_duration=10
