@@ -1,7 +1,7 @@
 # Nmap Configuration File
 
 # Target host atau IP (bisa berupa domain atau IP)
-nmap_target="103.41.169.201"
+#nmap_target="103.41.169.201"
 
 # Scan type (Pilih salah satu atau kombinasikan)
 # -sS : SYN scan (default, stealthy)

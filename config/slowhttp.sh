@@ -1,7 +1,12 @@
 # AutoPent Configuration File
 
 # Target URL (Target yang akan diserang)
-target_url="https://103.41.169.201/"
+#target_url="https://103.41.169.201/"
+
+targets=(
+    "https://103.41.169.201/"
+    "https://103.41.169.202"
+)
 
 # Number of connections (-c : Jumlah koneksi yang dibuka)
 connections=2

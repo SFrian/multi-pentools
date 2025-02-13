@@ -1,0 +1,8 @@
+# Nmap 7.95 scan initiated Fri Feb 14 00:20:12 2025 as: /usr/lib/nmap/nmap --privileged -sS -sV -A -p 22,80,443 -T4 -Pn -oN logs/nmap/103.41.169.201__nmap_20250214_002001.txt --script=default --traceroute -A -O -n https://103.41.169.201/
+Unable to split netmask from target expression: "https://103.41.169.201/"
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Fri Feb 14 00:20:12 2025 -- 0 IP addresses (0 hosts up) scanned in 0.14 seconds
+WARNING: No targets were specified, so 0 hosts scanned.
+Nmap done: 0 IP addresses (0 hosts up) scanned in 0.14 seconds
+[2025-02-14 00:20:12] Time-End     : "2025-02-14 00:20:12"
+[2025-02-14 00:20:12] Nmap Scan DONE ✅
