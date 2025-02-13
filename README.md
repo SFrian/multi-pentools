@@ -14,7 +14,8 @@ cd autopent
 chmod +x autopent.sh
 
 ## Contoh :
-![image](https://github.com/user-attachments/assets/96f0b485-4833-4d91-9677-86ced9d6e7cf)
 
-![image](https://github.com/user-attachments/assets/c145f9f4-89a1-4833-82cd-6a9f62cec9b6)
+![Screenshot From 2025-02-13 20-05-28](https://github.com/user-attachments/assets/15f8e70b-39b8-46f9-bce7-84bc28a4def9)
+
+![Screenshot From 2025-02-13 20-06-44](https://github.com/user-attachments/assets/85faa631-fccc-4114-8a40-c0d10035021d)
 
