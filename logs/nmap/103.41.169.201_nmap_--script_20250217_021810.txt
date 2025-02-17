@@ -1,0 +1,41 @@
+# Nmap 7.95 scan initiated Mon Feb 17 02:18:10 2025 as: /usr/lib/nmap/nmap --privileged --script ftp-* -p 21 -oN logs/nmap/103.41.169.201_nmap_--script_20250217_021810.txt 103.41.169.201
+Nmap scan report for 103.41.169.201
+Host is up (0.0038s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: PASV failed: socket TIMEOUT
+| ftp-brute: 
+|   Accounts: 
+|     admin:admin - Valid credentials
+|     netadmin:12345 - Valid credentials
+|     test:123456 - Valid credentials
+|     web:123456 - Valid credentials
+|     user:123456 - Valid credentials
+|     root:root - Valid credentials
+|     webadmin:webadmin - Valid credentials
+|     administrator:administrator - Valid credentials
+|     sysadmin:sysadmin - Valid credentials
+|     guest:123456 - Valid credentials
+|_  Statistics: Performed 22 guesses in 7 seconds, average tps: 3.1
+
+# Nmap done at Mon Feb 17 02:18:34 2025 -- 1 IP address (1 host up) scanned in 23.27 seconds
+ login allowed (FTP code 230)
+|_Can't get directory listing: PASV failed: socket TIMEOUT
+| ftp-brute: 
+|   Accounts: 
+|     admin:admin - Valid credentials
+|     netadmin:12345 - Valid credentials
+|     test:123456 - Valid credentials
+|     web:123456 - Valid credentials
+|     user:123456 - Valid credentials
+|     root:root - Valid credentials
+|     webadmin:webadmin - Valid credentials
+|     administrator:administrator - Valid credentials
+|     sysadmin:sysadmin - Valid credentials
+|     guest:123456 - Valid credentials
+|_  Statistics: Performed 22 guesses in 7 seconds, average tps: 3.1
+
+Nmap done: 1 IP address (1 host up) scanned in 23.27 seconds
+[2025-02-17 02:18:34] Nmap Scan dengan --script DONE ✅

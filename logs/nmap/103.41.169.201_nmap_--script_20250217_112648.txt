@@ -1,0 +1,1 @@
+# Nmap 7.95 scan initiated Mon Feb 17 11:26:48 2025 as: /usr/lib/nmap/nmap --privileged --script ftp-* -p 21 -oN logs/nmap/103.41.169.201_nmap_--script_20250217_112648.txt 103.41.169.201
